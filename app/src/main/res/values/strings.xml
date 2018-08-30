@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gerai-Sidewalk</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="me">Me</string>
+    <string name="nasi_lemak">nasi-lemak</string>
+    <string name="todo">TODO</string>
+</resources>
