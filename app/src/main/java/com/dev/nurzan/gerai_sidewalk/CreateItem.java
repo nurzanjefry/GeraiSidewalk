@@ -20,7 +20,7 @@ public class CreateItem extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        Log.d(TAG, "onCreate: CreateItem");
+        Log.d(TAG, "onCreate: CreateItem started");
         setContentView(R.layout.create_item);
     }
 }

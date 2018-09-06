@@ -28,14 +28,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openSalesActivity(View view){
-
-        Intent intent = new Intent(MainActivity.this, SalesActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(MainActivity.this, SalesActivity.class));
     }
 
     public void openCreateItem(View view){
-        Intent intent = new Intent(MainActivity.this, CreateItem.class);
-        startActivity(intent);
+        startActivity(new Intent(MainActivity.this, CreateItem.class));
     }
 
 

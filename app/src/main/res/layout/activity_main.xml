@@ -40,7 +40,7 @@
         <!--Row 1-->
         <!--Col 1-->
         <android.support.v7.widget.CardView
-            android:id="@+id/on"
+            android:id="@+id/cashCardView"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -80,6 +80,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_rowWeight="1"
+            android:onClick="openCreateItem"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
