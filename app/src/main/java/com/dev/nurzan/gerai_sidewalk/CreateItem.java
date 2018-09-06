@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 
 /**
  * Created by Nurzan Mohd Jefry on 2018096
