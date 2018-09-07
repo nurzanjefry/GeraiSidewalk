@@ -44,5 +44,18 @@ public class CreateItem extends AppCompatActivity {
                         + "\nitemPrice: " + itemPrice.getText().toString());
             }
         });
+
+        clearItemButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // TODO: 6/9/2018 add for loop and use array, too redundant
+                itemName.getText().clear();
+                itemDesc.getText().clear();
+                itemRemark.getText().clear();
+                itemPrice.getText().clear();
+                //to refocus on itemName
+                itemName.requestFocus();
+            }
+        });
     }
 }
