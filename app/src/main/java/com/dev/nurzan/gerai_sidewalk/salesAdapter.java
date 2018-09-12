@@ -16,6 +16,7 @@ class salesAdapter extends RecyclerView.Adapter<salesAdapter.ViewHolder> {
 
     ArrayList<String> recipes;
 
+
     public salesAdapter(ArrayList<String> recipes) {
         this.recipes = recipes;
     }
@@ -43,7 +44,7 @@ class salesAdapter extends RecyclerView.Adapter<salesAdapter.ViewHolder> {
 
         public ViewHolder(View itemView) {
             super(itemView);
-            itemName = itemView.findViewById(R.id.itemName);
+            itemName = itemView.findViewById(R.id.item_name);
         }
     }
 }
