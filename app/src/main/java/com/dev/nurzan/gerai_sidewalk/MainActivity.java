@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 
 /**
- * Created by Nurzan Mohd Jefry on 2018096
+ * Created by nurzanjefry on 9/6/2018
  */
 
 public class MainActivity extends AppCompatActivity {
